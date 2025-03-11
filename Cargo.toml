@@ -1,0 +1,17 @@
+[package]
+name = "stm32f3discovery"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+stm32f3-discovery = "0.7.2"
+accelerometer = "0.12.0"
+cortex-m = "0.7.2"
+cortex-m-rt = "0.6.14"
+lsm303dlhc = "0.2.0"
+stm32f3xx-hal = "0.7.0"
+switch-hal = "0.4.0"
+
+[dev-dependencies]
+panic-halt = "0.2.0"
+panic-itm = "0.4.2"
